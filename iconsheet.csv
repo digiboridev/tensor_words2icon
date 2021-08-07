@@ -1,0 +1,37 @@
+,taskName,iconId,,
+0,blue sea checkin at this summer,example,,WARNING - HOW TO
+1,see the glow of the sea,exapmle,,Поле label должно соответствовать названию (он же id) файла иконки
+2,swim in blue dark sea,example,,Номера в первой колонке должны идти последовательно
+3,go to karaoke bar with friends on friday,Karaoke,,Разные варианты названий тасок должны находится в разных строках
+4,scream as horse at friday,Karaoke,,Иконки используются только для понимания человеком.
+5,make Jackie sister scream as horse after karaoke on friday,Karaoke,,В дальнейшем файл будет экспортироваться в csv формат без иконок
+6,grow an apple tree,Apple,,
+7,By an apples,Apple,,
+8,Get some apples for a cake,Apple,,
+9,Make apple juice,Apple,,
+10,Get some apples for breakfast,Apple,,
+11,Eat apples more,Apple,,
+12,Put apple three's on the mars,Apple,,
+13,Make apple cake traditional boutique food,Apple,,
+14,Grab some coffee,Coffee,,
+15,Get a rest at 11 am with coffee,Coffee,,
+16,Bring coffee off the table,Coffee,,
+17,Drink less coffee,Coffee,,
+18,"Drink less coffee, right now",Coffee,,
+19,Drink less coffee from next monday,Coffee,,
+20,Stop drink that danm coffe,Coffee,,
+6,grow an apple tree,Apple,,
+7,By an apples,Apple,,
+8,Get some apples for a cake,Apple,,
+9,Make apple juice,Apple,,
+10,Get some apples for breakfast,Apple,,
+11,Eat apples more,Apple,,
+12,Put apple three's on the mars,Apple,,
+13,Make apple cake traditional boutique food,Apple,,
+14,Grab some coffee,Coffee,,
+15,Get a rest at 11 am with coffee,Coffee,,
+16,Bring coffee off the table,Coffee,,
+17,Drink less coffee,Coffee,,
+18,"Drink less coffee, right now",Coffee,,
+19,Drink less coffee from next monday,Coffee,,
+20,Stop drink that danm coffe,Coffee,,
