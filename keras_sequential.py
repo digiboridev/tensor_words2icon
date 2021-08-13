@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 
 
 
-dataset = pd.read_csv("iconsheet.csv")
+dataset = pd.read_csv("fdata.csv")
 
 
 def preprocess_text(sen):
@@ -90,7 +90,7 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['acc'])
 
 
-history = model.fit(X_train, y_train, batch_size=128, epochs=5, verbose=1, validation_split=0.2)
+history = model.fit(X_train, y_train, batch_size=128, epochs=1000, verbose=1, validation_split=0.2)
 score = model.evaluate(X_test, y_test, verbose=1)
 
 print("Test Score:", score[0])

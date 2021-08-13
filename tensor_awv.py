@@ -14,21 +14,21 @@ tf.get_logger().setLevel('ERROR')
 spec = model_spec.get('average_word_vec')
 
 train_data = DataLoader.from_csv(
-      filename='iconsheet.csv',
+      filename='custom.csv',
       text_column='taskName',
       label_column='iconId',
       model_spec=spec,
       is_training=True)
       
 test_data = DataLoader.from_csv(
-      filename='iconstest.csv',
+      filename='test.csv',
       text_column='taskName',
       label_column='iconId',
       model_spec=spec,
       is_training=False)
 
 
-model = text_classifier.create(train_data, model_spec=spec, epochs=100)
+model = text_classifier.create(train_data, model_spec=spec, epochs=10000)
 
 
 loss, acc = model.evaluate(test_data)
