@@ -28,7 +28,7 @@ test_data = DataLoader.from_csv(
       is_training=False)
 
 
-model = text_classifier.create(train_data, model_spec=spec, epochs=10000)
+model = text_classifier.create(train_data, model_spec=spec, epochs=2000)
 
 
 loss, acc = model.evaluate(test_data)
